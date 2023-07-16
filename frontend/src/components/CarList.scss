@@ -1,0 +1,128 @@
+.CarList {
+    margin: 0 3rem;
+    padding-top: 3rem;
+    .search-container {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1rem;
+    
+      input {
+        padding: 0.5rem;
+        margin-right: 0.5rem;
+      }
+    
+      button {
+        padding: 0.5rem 1rem;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    
+        &:hover {
+          background-color: #0056b3;
+        }
+      }
+    }
+    .header {
+      margin-bottom: 2rem;
+  
+      .title {
+        font-size: 2rem;
+      }
+    }
+  
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+    }
+  
+    .button {
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 2rem;
+      
+      button {
+        margin-right: 1rem;
+        
+        &:first-child {
+          background-color: #007bff;
+          color: wheat;
+          height: 2.5rem;
+          border-radius: 5px;
+          border: 1px solid;
+        }
+  
+        &:last-child {
+          background-color: #28a745;
+          color: wheat;
+          height: 2.5rem;
+          border-radius: 5px;
+          border: 1px solid;
+        }
+  
+        &:hover {
+          background-color: darkblue;
+        }
+      }
+    }
+  
+    table {
+      width: 90%;
+      margin: 0 auto;
+      border-collapse: collapse;
+  
+      th,
+      td {
+        padding: 1rem;
+        border-bottom: 1px solid #ddd;
+      }
+  
+      th {
+        background-color: #f2f2f2;
+        text-align: left;
+      }
+  
+      img {
+        max-width: 50px;
+        height: auto;
+      }
+  
+      td:last-child {
+        button {
+          background-color: #007bff;
+          color: #fff;
+          transition: background-color 0.3s ease-in-out;
+  
+          &:hover {
+            background-color: #0056b3;
+          }
+        }
+      }
+  
+      .no-car-message {
+        text-align: center;
+        color: red;
+        font-size: 1.5rem;
+      }
+    }
+  
+    .pagination {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 2rem;
+  
+      button {
+        background-color: #007bff;
+        color: #fff;
+        padding: 0.6rem 1rem;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-left: 1rem;
+  
+        &:hover {
+          background-color: darkblue;
+        }
+      }
+    }
+  }

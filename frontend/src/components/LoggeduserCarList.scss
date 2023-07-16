@@ -1,0 +1,42 @@
+.logged-user-car-list {
+    margin: 3rem 10rem;
+    
+    table {
+      width: 100%;
+      border-collapse: collapse;
+  
+      th,
+      td {
+        padding: 8px;
+        border-bottom: 1px solid #ddd;
+      }
+  
+      th {
+        background-color: #f2f2f2;
+        text-align: left;
+      }
+  
+      img {
+        max-width: 50px;
+        height: auto;
+      }
+  
+      button {
+        padding: 6px 12px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease-in-out;
+  
+        &:hover {
+          background-color: #0056b3;
+        }
+      }
+    }
+  
+    td[colspan="6"] {
+      padding: 20px;
+    }
+  }
+  
